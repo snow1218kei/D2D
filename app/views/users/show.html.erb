@@ -1,0 +1,5 @@
+<ul>
+  <% @purchaseds.each do |purchase| %>
+    <li><%= image_tag purchase.image.url if purchase.image?%></li>
+  <% end %>  
+</ul>

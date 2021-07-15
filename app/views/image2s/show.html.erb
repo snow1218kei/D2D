@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Image:</strong>
+  <%= image_tag @image2.image.url if @image2.image? %>
+</p>
+
+<%= link_to 'Edit', edit_image2_path(@image2) %> |
+<%= link_to 'Back', image2s_path %>
